@@ -4,9 +4,9 @@ parede em metros, calcule a sua área e a quantidade de
 tinta necessária para pinta-la, sabendo que cada litro
 de tinta, pinta uma área de 2m².
 ''' 
-larg = int(input('Qual a largura da parede em mestros:'))
-alt = int(input('Qual a altura da parede em mestros:'))
-area = alt*larg
+larg = float(input('Largura da parede:'))
+alt = float(input('Altura da parede:'))
+area = larg*alt
 litros = area/2
 
-print(f'Com uma parede com área de {area} metros, será necessário {litros} litros\n para pintar essa parede')
+print(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {area}m².\nSerá necessário {litros}l para pintar essa parede')
